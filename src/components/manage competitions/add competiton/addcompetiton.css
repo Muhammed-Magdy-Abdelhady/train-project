@@ -14,3 +14,10 @@
     overflow: hidden !important;
     border-top: 0 !important;
 }
+.theme-bg{
+    background: #A9ABD3 !important;
+}
+.side-space{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}

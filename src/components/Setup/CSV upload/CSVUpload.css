@@ -59,7 +59,6 @@
 
 .more-round{
     border-radius: 12px !important;
-    width: 100%;
 }
 
 .fix-dis{
@@ -97,8 +96,7 @@
 }
 
 .lower-font-size{
-    font-size: 0.75em;
-    font-weight: bold;
+    font-size: 0.75em !important;
 }
 
 .svg-con{
@@ -108,4 +106,45 @@
 .svg{
     height: inherit !important;
     width: inherit !important;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.btn-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.free-space{
+    width: 49% !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.btn-color-theme{
+    background: #A9ABD3 !important;
+    border-radius: 10px !important;
+    color: white !important;
+}
+
+.top-space{
+    padding-top: 10px !important;
+}
+
+.full-width{
+    width: 100% !important;
+}
+.Xlower-font-size{
+    font-size: x-small !important;
+}
+.no-padding .col{
+    padding: 0 !important;
+}
+.auto-margin-top-bottom{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
 }
