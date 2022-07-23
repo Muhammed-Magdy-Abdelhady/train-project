@@ -25,7 +25,7 @@ import Roles from './components/manage users/Roles/Roles';
 import AddRole from './components/manage users/Roles/Add role/AddRole';
 import AddCompetition from './components/manage competitions/add competiton/AddCompetition';
 import CSVUpload from './components/Setup/CSV upload/CSVUpload';
-
+import PageNotFound from './components/PageNotFound';
 
 function App() {
   return (
@@ -71,6 +71,7 @@ function App() {
           <Route path='/forgotpassword' element={<ForgotPassword />} />
           <Route path='/resetpassword' element={<ResetPassword />} />
           <Route path="/" element={<Navigate replace to="/dashboard" />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       
     </div>
